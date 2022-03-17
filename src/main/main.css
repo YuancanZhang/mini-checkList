@@ -1,0 +1,18 @@
+.addtaskArea{
+    position: absolute;
+    top: 50px;
+}
+
+.displaytask{
+    display: flex;
+    flex-direction: column;
+}
+
+#checkbox{
+    color: white
+}
+
+#checkbox:checked + label{
+    color: red;
+    align-self: flex-end;
+}
