@@ -1,18 +1,36 @@
+
+.split{
+    width: 50%;
+    position: fixed;
+}
 .addtaskArea{
-    position: absolute;
-    top: 50px;
+    top: 0%;
+    color:white;
 }
 
 .displaytask{
-    display: flex;
-    flex-direction: column;
+    top: 20%;
+    height: 33%;
+    color:white;
+    overflow-y: scroll;
 }
 
-#checkbox{
-    color: white
+.displaycompleted{
+    top: 55%;
+    height: 33%;
+    color: white;
+    overflow-y: scroll;
+}
+
+.singleTask{
+    height: 50px;
+    color: white;
 }
 
 #checkbox:checked + label{
     color: red;
-    align-self: flex-end;
+}
+
+.singleTask:hover{
+    background-color: pink;
 }
