@@ -50,8 +50,11 @@ const Main = ()=>{
                     }
                 })}
             </div>
-            <div className = "split displaycompleted">
+            <div className = "split completetitle">
                 <p>COMPLETED LIST</p>
+            </div>
+            <div className = "split displaycompleted">
+                
                 {todolist.map((task: ITask, key: number)=>{
                     if(task.completion){
                         return <ToDoTask key = {key} task={task} handler={update}/>
